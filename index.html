@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Quem está assistindo?</h1>
+    </header>
+
+    <main>
+        <section aria-label="Perfis de usuário">
+            <ul>                
+                <li class="item-perfil-1" data-name="Rafael" data-img="./assets/perfil-1.png">
+                   <figure>
+                        <img src="./assets/perfil-1.png" alt="Perfil Rafael">
+                        <figcaption>Rafael</figcaption>
+                    </figure>
+                </li>
+
+                <li class="item-perfil-2" data-name="Mateus" data-img="./assets/perfil-2.png">
+                    <figure>
+                        <img src="./assets/perfil-2.png" alt="Perfil Mateus">
+                        <figcaption>Mateus</figcaption>
+                    </figure>
+                </li>
+
+                <li class="item-perfil-3" data-name="Leticia" data-img="./assets/perfil-3.png">
+                    <figure>
+                        <img src="./assets/perfil-3.png" alt="Perfil Leticia">
+                        <figcaption>Leticia</figcaption>
+                    </figure>
+                </li>
+            </ul>            
+        </section>
+    </main>
+
+    <button id="toggle-theme">🌙 / ☀️</button>
+    
+    <script type="module" src="js/main.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
