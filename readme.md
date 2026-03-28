@@ -98,10 +98,10 @@ Durante o desenvolvimento deste projeto, foi possível evoluir em:
 
 ## 📷 Preview
 
-![Imagem com a escolha dos perfis](assets\preview-1.png) <br>
-
-
-![Imagem com perfil selecionado e seleção de catalogo](assets\preview-2.png)
+<p align="center">
+  <img src="assets/preview-1.png" alt="Escolha de perfis" width="45%" style="margin-right: 30px;"/>
+  <img src="assets/preview-2.png" alt="Escolha de catálogos" width="45%"/>
+</p>
 
 ---
 
